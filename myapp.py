@@ -4,11 +4,11 @@ import streamlit as st
 import plotly.express as px
 
 st.set_page_config(
-    page_title = 'Tattva Portal',
+    page_title = 'DeepSight',
     page_icon='image.png',
 
 )
-st.title(':rainbow[Tattva Portal]')
+st.title(':rainbow[DeepSight]')
 st.subheader(':grey[Explore and visualize your data with ease!]',divider='red')
 
 file = st.file_uploader('Upload your csv or excel file',type=['csv','xlsx'])
@@ -125,4 +125,5 @@ if file !=None:
 
     
         
+
 
